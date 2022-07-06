@@ -1,11 +1,13 @@
 import { Fragment } from 'react';
+import classes from './App.module.css';
 
-import Signup from './components/SignupPage'; // importing the login page 
+import SignupPage from './components/SignupPage'; // importing the login page 
+import Header from './UI/Header';
 
 function App() {
   return (
     <Fragment >
-      <Signup />
+        <SignupPage />
     </Fragment>
       
     
